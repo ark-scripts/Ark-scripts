@@ -1,3 +1,5 @@
+-- by Bintyzzz (discord)
+-- not complete, not everything works and some stuff is buggy
 local TweenService = game:GetService("TweenService")
 local Players = game:GetService("Players")
 local UserInputService = game:GetService("UserInputService")
@@ -6,7 +8,6 @@ local Camera = workspace.CurrentCamera
 local Player = Players.LocalPlayer
 local PlayerGui = Player:WaitForChild("PlayerGui")
 
--- FIXED: Check for the correct name "ArkBot" and destroy it
 if PlayerGui:FindFirstChild("ArkBot") then
 	PlayerGui.ArkBot:Destroy()
 end
